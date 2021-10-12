@@ -1,0 +1,30 @@
+.app {
+  overflow: hidden;
+  height: 100vh;
+  &-header {
+    height: 5rem;
+    margin-bottom: 2rem;
+    background-color: rgb(251, 193, 1);
+    margin: 0;
+
+    &-logo {
+      left: 0;
+      position: absolute;
+      height: inherit;
+    }
+    & > p {
+      font-size: 2rem;
+      text-align: center;
+      margin: 0;
+      padding-top: 1.5rem;
+    }
+  }
+  &-main {
+    background-color: #f4fce3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+}

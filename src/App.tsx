@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {  useEffect } from "react";
+import {  useDispatch } from 'react-redux';
+import classes from "./App.module.scss";
+import leocodeLogo from "./img/leocode-log.svg";
+
+import UsersList from "./components/SearchList/UsersList";
+
+import { fetchUsersList } from './store/users-actions'
 
 function App() {
+  const dispatch = useDispatch();
+ 
+  useEffect(() => {
+    dispatch(fetchUsersList());
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={classes.app}>
+      <header className={classes["app-header"]}>
+        <img src={leocodeLogo} alt="Leocode logo" className={classes["app-header-logo"]} />
+        <p> This is recruitment task for Leocode company.</p>
       </header>
+      {/* <Table /> */}
+      <section className={classes["app-main"]}>
+        <UsersList />
+        {/* <UsersList className={classes["App-main-list"]}/> */}
+      </section>
     </div>
   );
 }

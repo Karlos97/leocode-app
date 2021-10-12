@@ -1,0 +1,23 @@
+.user {
+  height: 1.7rem;
+  display: block;
+  margin: 0 0 0 4.5rem;
+
+  & > p {
+    margin: 0;
+    display: inline-block;
+    margin: 0.2rem 0.3rem 0 0.1rem;
+  }
+  & > li {
+    margin: 0;
+  }
+}
+.name {
+  font-size: 0.9rem;
+}
+.paragraph {
+  &-gray {
+    font-size: 0.75rem;
+    color: #868e96;
+  }
+}
