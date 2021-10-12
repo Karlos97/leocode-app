@@ -2,6 +2,8 @@ import { Dispatch } from "redux";
 import { usersActions } from "./users-slice";
 import { notificationActions } from "./notification-slice";
 
+const hidePositivNotificationTime = 1000;
+
 export const fetchUsersList = () => {
   return async (dispatch: Dispatch) => {
     const fetchData = async () => {
@@ -18,6 +20,10 @@ export const fetchUsersList = () => {
             title: "Success!",
             message: "Fetched users data successfully!",
           })
+        );
+        setTimeout(
+          () => dispatch(notificationActions.hideNotification()),
+          hidePositivNotificationTime
         );
       }
 

@@ -34,7 +34,7 @@ const UsersList = () => {
         {searchUsersInputValue === ""
           ? UsersListLayout(usersList)
           : UsersListLayout(
-              usersList?.filter((user: User) =>
+              usersList?.filter((user: UserType) =>
                 user.name.toLowerCase().includes(searchUsersInputValue)
               )
             )}

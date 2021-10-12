@@ -2,8 +2,6 @@ import { FC } from "react";
 import classes from "./Notification.module.scss";
 import { NotificationType } from "../../types/notificationType";
 
-
-
 const Notification: FC<NotificationType> = ({ status, title, message }) => {
   let specialClasses: string = "";
 

@@ -6,7 +6,7 @@ import notificationSlice from "./notification-slice";
 const store = configureStore({
   reducer: {
     users: usersSlice.reducer,
-    fetchDataNotifications: notificationSlice.reducer,
+    notifications: notificationSlice.reducer,
   },
 });
 

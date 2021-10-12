@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { notificationActions } from "./notification-slice";
 
 const usersSlice = createSlice({
   name: "Users List",

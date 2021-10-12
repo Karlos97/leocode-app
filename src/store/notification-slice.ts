@@ -12,7 +12,7 @@ const notificationSlice = createSlice({
   },
   reducers: {
     hideNotification(state) {
-        state.show = false;
+      state.show = false;
     },
     showNotification(state, action) {
       state.notification = {
