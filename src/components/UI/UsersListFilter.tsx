@@ -11,6 +11,7 @@ const UsersListFilter: FC<UsersListFilterProps> = ({ onFilterChange }) => (
     type="text"
     placeholder="Search by user name..."
     onChange={onFilterChange}
+    autoFocus
   />
 );
 

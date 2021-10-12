@@ -4,7 +4,7 @@ import UsersListFilter from "../UI/UsersListFilter";
 import { RootStateOrAny, useSelector } from "react-redux";
 
 import classes from "./UsersList.module.scss";
-import { User } from "../../types/userType";
+import { UserType } from "../../types/userType";
 
 const UsersList = () => {
   const [searchUsersInputValue, setSearchUsersInputValue] = useState("");
@@ -16,7 +16,7 @@ const UsersList = () => {
     setSearchUsersInputValue(e.target.value.trim().toLowerCase());
   };
 
-  const UsersListLayout = (array: Array<User>) =>
+  const UsersListLayout = (array: Array<UserType>) =>
     array?.map((user, index: number) => (
       <ListElement
         key={user.id}

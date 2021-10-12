@@ -1,6 +1,6 @@
-// import {Action, ActionCreator, Dispatch } from 'redux';
 import { Dispatch } from "redux";
 import { usersActions } from "./users-slice";
+import { notificationActions } from "./notification-slice";
 
 export const fetchUsersList = () => {
   return async (dispatch: Dispatch) => {
@@ -11,6 +11,14 @@ export const fetchUsersList = () => {
 
       if (!response.ok) {
         throw new Error("Could not fetch users data!");
+      } else {
+        dispatch(
+          notificationActions.showNotification({
+            status: "success",
+            title: "Success!",
+            message: "Fetched users data successfully!",
+          })
+        );
       }
 
       const data = await response.json();
@@ -26,7 +34,13 @@ export const fetchUsersList = () => {
         })
       );
     } catch (error) {
-      alert(error);
+      dispatch(
+        notificationActions.showNotification({
+          status: "error",
+          title: "Error!",
+          message: "Fetching users data failed!",
+        })
+      );
     }
   };
 };
