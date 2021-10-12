@@ -1,19 +1,11 @@
 .user {
-  height: 1.7rem;
+  height: 2rem;
   display: block;
-  margin: 0 0 0 4.5rem;
-
   & > p {
     margin: 0;
     display: inline-block;
     margin: 0.2rem 0.3rem 0 0.1rem;
   }
-  & > li {
-    margin: 0;
-  }
-}
-.name {
-  font-size: 0.9rem;
 }
 .paragraph {
   &-gray {

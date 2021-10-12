@@ -1,15 +1,15 @@
-import React, {  useEffect } from "react";
-import {  useDispatch } from 'react-redux';
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import classes from "./App.module.scss";
 import leocodeLogo from "./img/leocode-log.svg";
 
 import UsersList from "./components/SearchList/UsersList";
 
-import { fetchUsersList } from './store/users-actions'
+import { fetchUsersList } from "./store/users-actions";
 
 function App() {
   const dispatch = useDispatch();
- 
+
   useEffect(() => {
     dispatch(fetchUsersList());
   }, [dispatch]);
@@ -17,7 +17,11 @@ function App() {
   return (
     <div className={classes.app}>
       <header className={classes["app-header"]}>
-        <img src={leocodeLogo} alt="Leocode logo" className={classes["app-header-logo"]} />
+        <img
+          src={leocodeLogo}
+          alt="Leocode logo"
+          className={classes["app-header-logo"]}
+        />
         <p> This is recruitment task for Leocode company.</p>
       </header>
       {/* <Table /> */}

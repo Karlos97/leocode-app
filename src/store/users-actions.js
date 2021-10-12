@@ -1,9 +1,7 @@
-// import {Action, ActionCreator, Dispatch } from 'redux';
-import { Dispatch } from "redux";
 import { usersActions } from "./users-slice";
 
 export const fetchUsersList = () => {
-  return async (dispatch: Dispatch) => {
+  return async (dispatch) => {
     const fetchData = async () => {
       const response = await fetch(
         "https://jsonplaceholder.typicode.com/users"
