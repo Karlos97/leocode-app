@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Karlos97/Leocode/static/css/main.a617e044.chunk.css",
-    "main.js": "/Karlos97/Leocode/static/js/main.70d03005.chunk.js",
-    "main.js.map": "/Karlos97/Leocode/static/js/main.70d03005.chunk.js.map",
-    "runtime-main.js": "/Karlos97/Leocode/static/js/runtime-main.eaf799d7.js",
-    "runtime-main.js.map": "/Karlos97/Leocode/static/js/runtime-main.eaf799d7.js.map",
-    "static/js/2.91fa7cc0.chunk.js": "/Karlos97/Leocode/static/js/2.91fa7cc0.chunk.js",
-    "static/js/2.91fa7cc0.chunk.js.map": "/Karlos97/Leocode/static/js/2.91fa7cc0.chunk.js.map",
-    "static/js/3.97168f88.chunk.js": "/Karlos97/Leocode/static/js/3.97168f88.chunk.js",
-    "static/js/3.97168f88.chunk.js.map": "/Karlos97/Leocode/static/js/3.97168f88.chunk.js.map",
-    "index.html": "/Karlos97/Leocode/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/Karlos97/Leocode/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.91fa7cc0.chunk.js.LICENSE.txt": "/Karlos97/Leocode/static/js/2.91fa7cc0.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Karlos97/Leocode/static/media/logo.6ce24c58.svg"
+    "main.css": "/Karlos97/leocode-app/static/css/main.a617e044.chunk.css",
+    "main.js": "/Karlos97/leocode-app/static/js/main.70d03005.chunk.js",
+    "main.js.map": "/Karlos97/leocode-app/static/js/main.70d03005.chunk.js.map",
+    "runtime-main.js": "/Karlos97/leocode-app/static/js/runtime-main.0b994715.js",
+    "runtime-main.js.map": "/Karlos97/leocode-app/static/js/runtime-main.0b994715.js.map",
+    "static/js/2.91fa7cc0.chunk.js": "/Karlos97/leocode-app/static/js/2.91fa7cc0.chunk.js",
+    "static/js/2.91fa7cc0.chunk.js.map": "/Karlos97/leocode-app/static/js/2.91fa7cc0.chunk.js.map",
+    "static/js/3.97168f88.chunk.js": "/Karlos97/leocode-app/static/js/3.97168f88.chunk.js",
+    "static/js/3.97168f88.chunk.js.map": "/Karlos97/leocode-app/static/js/3.97168f88.chunk.js.map",
+    "index.html": "/Karlos97/leocode-app/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/Karlos97/leocode-app/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.91fa7cc0.chunk.js.LICENSE.txt": "/Karlos97/leocode-app/static/js/2.91fa7cc0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Karlos97/leocode-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eaf799d7.js",
+    "static/js/runtime-main.0b994715.js",
     "static/js/2.91fa7cc0.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.70d03005.chunk.js"
