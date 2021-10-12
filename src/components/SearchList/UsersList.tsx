@@ -2,7 +2,6 @@ import { ChangeEvent, useState } from "react";
 import ListElement from "./ListElement";
 import UsersListFilter from "../UI/UsersListFilter";
 import { RootStateOrAny, useSelector } from "react-redux";
-
 import classes from "./UsersList.module.scss";
 import { UserType } from "../../types/userType";
 

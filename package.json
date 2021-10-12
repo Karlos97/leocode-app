@@ -46,8 +46,7 @@
   },
   "standard": {
     "ignore": [
-      "/build/",
-      "/node_modules/"
+      "/build/"
     ]
   }
 }
